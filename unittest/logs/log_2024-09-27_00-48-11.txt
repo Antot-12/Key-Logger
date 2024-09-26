@@ -1,0 +1,1 @@
+{"timestamp": "2024-09-27 00:48:11", "level": "INFO", "event_type": "key_press", "details": {"key": "q"}}

